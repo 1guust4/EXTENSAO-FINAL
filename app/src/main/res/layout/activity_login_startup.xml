@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginStartup">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/text_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_conta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_usuario"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:id="@+id/Cont_Components"
+        style="@style/Cont_Components"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_conta"
+        android:layout_marginTop="60dp"
+        />
+
+
+    <EditText
+        android:id="@+id/Caixa_Login"
+        style="@style/Edit_Text"
+        android:hint="Usuário"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@id/Cont_Components"
+        app:layout_constraintStart_toStartOf="@id/Cont_Components"
+        app:layout_constraintTop_toTopOf="@id/Cont_Components" />
+
+
+    <EditText
+        android:id="@+id/Caixa_Senha"
+        style="@style/Edit_Text"
+        android:hint="Senha"
+        android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="@id/Cont_Components"
+        app:layout_constraintStart_toStartOf="@id/Cont_Components"
+        app:layout_constraintTop_toBottomOf="@id/Caixa_Login" />
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_login"
+        style="@style/Botao_Login"
+        android:text="@string/entrar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Caixa_Senha"/>
+
+
+    <ProgressBar
+        android:id="@+id/load_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:visibility="invisible"
+        android:indeterminateTint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Cont_Components"/>
+
+    <TextView
+        android:id="@+id/text_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_cadastro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/load_login"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

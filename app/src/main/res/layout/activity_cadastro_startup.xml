@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CadastroStartup">
+
+
+    <TextView
+        android:id="@+id/title_cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_cadastro"
+        android:textSize="45sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        />
+
+    <View
+        android:id="@+id/Cont_Cadastro"
+        style="@style/Cont_Components"
+        app:layout_constraintTop_toBottomOf="@id/title_cadastro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/edit_nome"
+        style="@style/Edit_Text"
+        app:layout_constraintStart_toStartOf="@id/Cont_Cadastro"
+        app:layout_constraintEnd_toEndOf="@id/Cont_Cadastro"
+        app:layout_constraintTop_toTopOf="@id/Cont_Cadastro"
+        android:hint="Nome"
+        />
+
+    <EditText
+        android:id="@+id/edit_email_cadastro"
+        style="@style/Edit_Text"
+        app:layout_constraintStart_toStartOf="@id/Cont_Cadastro"
+        app:layout_constraintEnd_toEndOf="@id/Cont_Cadastro"
+        app:layout_constraintTop_toBottomOf="@id/edit_nome"
+        android:hint="E-mail"
+        />
+
+    <EditText
+        android:id="@+id/edit_senha_cadastro"
+        style="@style/Edit_Text"
+        app:layout_constraintStart_toStartOf="@id/Cont_Cadastro"
+        app:layout_constraintEnd_toEndOf="@id/Cont_Cadastro"
+        app:layout_constraintTop_toBottomOf="@id/edit_email_cadastro"
+        android:hint="Senha numérica"
+        android:inputType="numberPassword"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_cadastro"
+        style="@style/Botao_Login"
+        android:text="Cadastrar"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/Cont_Cadastro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

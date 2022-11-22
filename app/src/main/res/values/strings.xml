@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ava 3</string>
+    <string name="entrar">Fazer login</string>
+    <string name="text_usuario">Olá mamãe!</string>
+    <string name="text_conta">Faça seu cadastro ou entre com uma conta</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="title_cadastro">Cadastre-se</string>
+</resources>
