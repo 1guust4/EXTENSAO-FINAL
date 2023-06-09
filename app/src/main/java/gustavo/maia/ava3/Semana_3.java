@@ -10,10 +10,10 @@ import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-public class HomeStartup extends AppCompatActivity {
+public class Semana_3 extends AppCompatActivity {
 
-    private TextView info_1,info_2,info_3;
-    private Button back_login,seta_direita,seta_esquerda;
+    private TextView info_1_semana_3,info_2_semana_3;
+    private Button back_login,seta_esquerda,seta_direita;
 
 
 
@@ -22,7 +22,7 @@ public class HomeStartup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_startup);
+        setContentView(R.layout.activity_semana3);
 
 
         getSupportActionBar().hide();
@@ -33,29 +33,38 @@ public class HomeStartup extends AppCompatActivity {
             public void onClick(View v) {
 
                 FirebaseAuth.getInstance().signOut();
-                Intent intent = new Intent(HomeStartup.this,LoginStartup.class);
+                Intent intent = new Intent(Semana_3.this,LoginStartup.class);
                 startActivity(intent);
                 finish();
             }
         });
 
 
-        info_1.setOnClickListener(new View.OnClickListener() {
+        info_1_semana_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(HomeStartup.this,InfoBebe.class);
+                Intent intent = new Intent(Semana_3.this,InfoBebe_Semana_3.class);
                 startActivity(intent);
 
             }
         });
 
 
-        info_2.setOnClickListener(new View.OnClickListener() {
+        info_2_semana_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(HomeStartup.this,InfoBebe_2.class);
+                Intent intent = new Intent(Semana_3.this,InfoBebe_2_Semana_3.class);
+                startActivity(intent);
+            }
+        });
+
+        seta_esquerda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Semana_3.this,HomeStartup.class);
                 startActivity(intent);
             }
         });
@@ -64,7 +73,7 @@ public class HomeStartup extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(HomeStartup.this,Semana_3.class);
+                Intent intent = new Intent(Semana_3.this,Semana_4.class);
                 startActivity(intent);
             }
         });
@@ -75,12 +84,11 @@ public class HomeStartup extends AppCompatActivity {
 
 
     private void IniciarComponentes(){
-        info_1 = findViewById(R.id.info_1);
-        info_2 = findViewById(R.id.info_2);
-
+        info_1_semana_3 = findViewById(R.id.info_1_semana_3);
+        info_2_semana_3 = findViewById(R.id.info_2_semana_3);
         back_login = findViewById(R.id.back_login);
-        seta_direita = findViewById(R.id.seta_direita);
         seta_esquerda = findViewById(R.id.seta_esquerda);
+        seta_direita = findViewById(R.id.seta_direita);
 
 
 

@@ -53,7 +53,7 @@
         />
 
     <Button
-        android:id="@+id/info_1"
+        android:id="@+id/info_1_semana_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,12 +70,12 @@
         />
 
     <Button
-        android:id="@+id/info_2"
+        android:id="@+id/info_2_semana_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/info_1"
+        app:layout_constraintTop_toBottomOf="@id/info_1_semana_3"
         android:backgroundTint="@color/white"
         android:padding="20dp"
         android:layout_marginLeft="20dp"
@@ -125,11 +125,11 @@
         tools:layout_editor_absoluteY="50dp" />
 
     <TextView
-        android:id="@+id/semana_1"
+        android:id="@+id/semana_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="SEMANA 2"
+        android:text="SEMANA 3"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"

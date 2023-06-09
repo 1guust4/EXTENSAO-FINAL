@@ -9,10 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ava3">
-        <activity android:name=".HomeStartup"/>
-        <activity android:name=".CadastroStartup"/>
+        <activity
+            android:name=".InfoBebe_2_Semana_4"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_4"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_4"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_3"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_3"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_3"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe"
+            android:exported="true" />
+        <activity android:name=".HomeStartup" />
+        <activity android:name=".CadastroStartup" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginStartup"
+        <activity
+            android:name=".LoginStartup"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
