@@ -10,6 +10,330 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ava3">
         <activity
+            android:name=".InfoBebe_2_Semana_40"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_40"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_40"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_39"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_39"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_39"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_38"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_38"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_37"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_37"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_38"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_37"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_36"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_36"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_36"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_35"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_35"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_35"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_34"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_34"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_34"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_33"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_33"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_33"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_32"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_32"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_32"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_31"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_31"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_31"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_30"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_30"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_30"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_29"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_29"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_29"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_28"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_28"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_28"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_27"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_27"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_27"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_26"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_26"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_26"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_25"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_25"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_25"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_24"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_24"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_24"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_22"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_22"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_23"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_23"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_23"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_22"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_21"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_21"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_21"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_20"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_20"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_19"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_19"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_20"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_19"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_18"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_18"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_17"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_17"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_18"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_16"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_16"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_17"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_15"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_15"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_16"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_15"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_14"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_14"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_14"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_13"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_13"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_13"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_12"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_12"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_12"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_11"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_11"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_11"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_10"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_10"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_9"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_9"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_10"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_8"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_8"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_9"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_8"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_7"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_7"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_7"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_6"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_6"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_6"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_2_Semana_5"
+            android:exported="true" />
+        <activity
+            android:name=".InfoBebe_Semana_5"
+            android:exported="true" />
+        <activity
+            android:name=".Semana_5"
+            android:exported="true" />
+        <activity
             android:name=".InfoBebe_2_Semana_4"
             android:exported="true" />
         <activity
