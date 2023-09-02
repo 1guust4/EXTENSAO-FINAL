@@ -5,14 +5,15 @@
     <string name="text_conta">Faça seu cadastro ou entre com uma conta</string>
     <string name="text_cadastro">Crie uma conta clicando aqui</string>
     <string name="title_cadastro">Cadastre-se</string>
-    <string name="info_semana_2">O óvulo fertilizado, agora chamado de zigoto, percorre a tuba uterina e se aninha no denso revestimento do seu útero. Infelizmente, é frequente que gestações não vão para a frente, e nem todo zigoto irá se transformar em um bebê. Mas, se a gravidez progredir bem ao longo dos próximos nove meses, o zigoto, que é minúsculo, vai crescer e se desenvolver, virando uma bolinha de células que então se transformará no seu bebê.</string>
+    <string name="info_semana_2">O óvulo fertilizado, agora chamado de zigoto, percorre a tuba uterina e se aninha no denso revestimento do seu útero. Infelizmente, é frequente que gestações não vão para a frente, e nem todo zigoto irá se transformar em um bebê. <p>Mas, se a gravidez progredir bem ao longo dos próximos nove meses, o zigoto, que é minúsculo, vai crescer e se desenvolver, virando uma bolinha de células que então se transformará no seu bebê.</p></string>
     <string name="info_2_semana_2">Apesar de você possivelmente estar bem no comecinho da gravidez, podem surgir alguns sintomas discretos esta semana. Por exemplo, a gravidez aumenta o fluxo de sangue para os seios, e talvez você sinta alguma diferença neles. Os mamilos, por exemplo, podem ficar mais sensíveis.
 
-Outro dos primeiros sinais de gravidez é uma mudança na coloração da vulva. O mais comum é que a vulva e a vagina sejam rosa claro, mas a gravidez faz com que elas fiquem mais escuras, também devido ao aumento no fluxo sanguíneo.
+        <p>Outro dos primeiros sinais de gravidez é uma mudança na coloração da vulva. O mais comum é que a vulva e a vagina sejam rosa claro, mas a gravidez faz com que elas fiquem mais escuras, também devido ao aumento no fluxo sanguíneo.</p>
 
-Você também pode notar um aumento na secreção vaginal, sentir a calcinha mais molhada. Essa secreção não traz nenhum prejuízo, e é comum em todas as grávidas.
+        <p>Você também pode notar um aumento na secreção vaginal, sentir a calcinha mais molhada. Essa secreção não traz nenhum prejuízo, e é comum em todas as grávidas.</p>
 
-Algumas mulheres têm um leve sangramento, chamado de nidação, quando há a implantação do zigoto no útero. Pode haver também um pouco de cólica. Mas a grande maioria não sente nada de diferente nesta fase.</string>
+        <p>Algumas mulheres têm um leve sangramento, chamado de nidação, quando há a implantação do zigoto no útero. Pode haver também um pouco de cólica. Mas a grande maioria não sente nada de diferente nesta fase.</p></string>
+
     <string name="info_semana_3">O óvulo fertilizado é agora uma bolinha formada por células que se multiplicam rápido, e passa a ser oficialmente chamado de blastocisto. Ele se implanta no revestimento interno do útero e cresce constantemente. Algumas das células se transformam no bebê, enquanto outras se diferenciam para formar a placenta e o saco gestacional.
 
 As células que estão desenvolvendo a placenta começaram a produzir o hormônio hCG (gonadotrofina coriônica humana), o chamado hormônio da gravidez. Esse hormônio dá "ordens" aos ovários para que produzam estrogênio e progesterona, que por sua vez impedem que o útero libere o revestimento interno (chamado endométrio). O hCG também é o hormônio que pode ser detectado no exame de gravidez, tanto o de farmácia quanto o de sangue.
@@ -130,12 +131,11 @@ As papilas gustativas estão se desenvolvendo e os órgãos genitais continuam s
 
     <string name="info_2_semana_11">Na 11ª semana da gestação, alguns cuidados são importantes para ajudar a aliviar os desconfortos que podem surgir como:
 
-Dor na pelve: fazer alongamentos leves e movimentos suaves podem ajudar a aliviar o desconforto. No entanto, se a dor não melhorar, ou se tiver febre, deve-se entrar em contato com o médico imediatamente;
-Enjoo matinal: comer em intervalos curtos a cada 2 ou 3 horas e em pequenas quantidades e manter-se hidratada. Se os enjoos forem muito intensos, o médico poderá receitar o uso de remédio para enjoos durante a gravidez. Cansaço excessivo: criar uma rotina de dormir e acordar na mesma hora todos os dias ou dormir um pouco durante o dia podem ajudar a diminuir o cansaço e aumentar a disposição;
-Prisão de ventre: manter o corpo hidratado, bebendo pelo menos 8 copos de água por dia, comer mais fibras na forma de grãos inteiros, frutas e vegetais frescos, e praticar exercícios físicos regularmente recomendados pelo médico, podem ajudar a melhorar o trânsito intestinal e aliviar esse desconforto;
-Vontade de urinar frequentemente: não prender a urina, pois deixar a urina retida na bexiga pode aumentar o risco de infecção urinária;
-Azia ou sensação de queimação no estômago: comer em pequenas quantidades e não deitar após as refeições podem ajudar a aliviar esse desconforto. Outra medida importante é evitar beber líquidos durante as refeições e evitar comer frituras, comidas apimentadas ou muito condimentadas. Veja outras dicas de como aliviar a azia na gravidez.
-Além disso, deve-se seguir todas as orientações médicas, continuar tomando o ácido fólico e/ou outros suplementos indicados pelo médico, e continuar fazendo uma alimentação nutritiva incluindo frutas, legumes e verduras frescos, cereais e grãos integrais, por exemplo. </string>
+        <p>Enjoo matinal: comer em intervalos curtos a cada 2 ou 3 horas e em pequenas quantidades e manter-se hidratada. Se os enjoos forem muito intensos, o médico poderá receitar o uso de remédio para enjoos durante a gravidez. Cansaço excessivo: criar uma rotina de dormir e acordar na mesma hora todos os dias ou dormir um pouco durante o dia podem ajudar a diminuir o cansaço e aumentar a disposição; </p>
+        <p>Prisão de ventre: manter o corpo hidratado, bebendo pelo menos 8 copos de água por dia, comer mais fibras na forma de grãos inteiros, frutas e vegetais frescos, e praticar exercícios físicos regularmente recomendados pelo médico, podem ajudar a melhorar o trânsito intestinal e aliviar esse desconforto;</p>
+        <p>Vontade de urinar frequentemente: não prender a urina, pois deixar a urina retida na bexiga pode aumentar o risco de infecção urinária;</p>
+        <p>Azia ou sensação de queimação no estômago: comer em pequenas quantidades e não deitar após as refeições podem ajudar a aliviar esse desconforto. Outra medida importante é evitar beber líquidos durante as refeições e evitar comer frituras, comidas apimentadas ou muito condimentadas. Veja outras dicas de como aliviar a azia na gravidez.</p>
+        <p>Além disso, deve-se seguir todas as orientações médicas, continuar tomando o ácido fólico e/ou outros suplementos indicados pelo médico, e continuar fazendo uma alimentação nutritiva incluindo frutas, legumes e verduras frescos, cereais e grãos integrais, por exemplo.</p> </string>
 
     <string name="info_semana_12">Na 12ª semana da gestação, a pele do feto é transparente, o cabelo começa a crescer e a maioria dos sistemas e órgãos do bebê já estão desenvolvidos, mas continuam a amadurecer até o final da gravidez. Além disso, os órgãos começam a desempenhar as suas funções.
 
